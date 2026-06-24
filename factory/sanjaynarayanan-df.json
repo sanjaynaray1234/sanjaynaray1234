@@ -1,0 +1,15 @@
+{
+	"name": "sanjaynarayanan-df",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8ea99e84-434f-430a-b269-642976e54595",
+		"tenantId": "696c5ae2-eb39-4a83-8eaa-65e6ad8957ca"
+	}
+}
