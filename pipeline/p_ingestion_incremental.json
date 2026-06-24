@@ -80,7 +80,7 @@
 					"source": {
 						"type": "AzureSqlSource",
 						"sqlReaderQuery": {
-							"value": "SELECT * FROM Customer_transactions_view \nWHERE LastModifiedDate > '@{activity('lkp_get_old_watermark').output.firstRow.WatermarkValue}' \nAND LastModifiedDate <= '@{activity('lkp_get_new_watermark').output.firstRow.NewWatermarkValue}'",
+							"value": "SELECT * FROM v_Customer_Transactions \nWHERE LastModifiedDate > '@{activity('lkp_get_old_watermark').output.firstRow.WatermarkValue}' \nAND LastModifiedDate <= '@{activity('lkp_get_new_watermark').output.firstRow.NewWatermarkValue}'",
 							"type": "Expression"
 						},
 						"queryTimeout": "02:00:00",
@@ -145,7 +145,7 @@
 							"type": "DateTime"
 						},
 						"TableName": {
-							"value": "",
+							"value": "Customer_Transactions",
 							"type": "String"
 						}
 					}
