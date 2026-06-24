@@ -1,0 +1,15 @@
+{
+	"name": "rrraghavendran1992-df",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7d0952ef-5b5e-479b-ba9b-83c3d5ed9830",
+		"tenantId": "696c5ae2-eb39-4a83-8eaa-65e6ad8957ca"
+	}
+}
